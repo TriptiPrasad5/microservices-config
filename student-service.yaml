@@ -32,4 +32,8 @@ management:
        include: "*"
  endpoint:
    health:
-     show-details: always   
+     show-details: always
+ metrics:
+   export:
+     prometheus:
+       enabled: true    
